@@ -1,0 +1,38 @@
+.photo {
+    width: 200px;
+    height: 250px;
+    border-radius: 15px;
+}
+
+.card{
+    display: flex;
+    justify-content: space-around;
+    width: 600px;
+    margin: 10px;
+    text-align: center;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: white;
+    text-shadow: 2px 2px 4px #000000;
+    background-color: #bbd0ff;
+    border-bottom: 10px solid #f28482;
+    animation-name: transition;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+
+}
+
+h2:hover{
+    background-color: #e7c6ff;
+}
+
+.cardtxt{
+    padding: 50px;
+}
+
+@keyframes transition {
+    from {background-color: #bbd0ff;}
+    to {background-color: #ffd6ff;}
+}
